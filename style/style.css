@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 20rem;
+    padding: 0.5rem 3rem;
+    height: 3rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 3px solid #000;
+    flex-shrink: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #090909;
+}
+
+header span {
+    text-transform: uppercase;
+}
+
+.net {
+    color: orange;
+}
+
+.nav-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+nav li {
+    padding: 0.5rem;
+}
+
+main {
+    padding-top: 3rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+main button {
+    text-transform: uppercase;
+}
+
+main a {
+    text-decoration: none;
+    color: #090909;
+}
+
+h2 {
+    background-color: #f5f5f5;
+}
+
+.button-block {
+    border-bottom: 3px solid red;
+    padding: 1rem 0;
+}
+
+.left {
+    margin-top: 10rem;
+}
+
+.left article {
+    border-bottom: 2px solid gray;
+    padding: 1rem 0;
+}
+
+.all {
+    display: block;
+    margin: 1rem auto;
+}
+
+.main-events h3 {
+    border-bottom: 3px solid red;
+    padding: 1rem 0;
+}
+
+.main-events div {
+    border-bottom: 2px solid gray;
+    padding: 1rem 0;
+}
+
+.opinions-button {
+    border-bottom: 3px solid red;
+    padding: 1rem 0;
+}
+
+.opinions div {
+    border-bottom: 2px solid gray;
+    padding: 1rem 0;
+}
+
+.right {
+    width: 50rem;
+}
+
+.top-news h3 {
+    border-bottom: 3px solid red;
+    padding: 1rem 0;
+}
+
+.top-news img {
+    width: 100%;
+}
+
+.top-news article {
+    border-bottom: 2px solid gray;
+    padding: 1rem 0;
+}
+
+.opinions span {
+    color: orange;
+}
+
+.opinion-right {
+    border-bottom: 3px solid red;
+    padding: 1rem 0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #070707;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+    nav {
+        display: none;
+    }
+}
